@@ -4,6 +4,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.stream.Stream;
 
 public class learningCollectionsAndStream {
     public static void main(String[] args) {
@@ -28,6 +29,7 @@ public class learningCollectionsAndStream {
         for(int i : reg.keySet()){
             System.out.println("Name : " + reg.get(i) + " "+ "Roll Number = "+ i);
         }
+        System.out.println(45+567);
 
     }
 }
