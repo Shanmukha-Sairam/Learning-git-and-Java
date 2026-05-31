@@ -1,0 +1,1 @@
+Hello everyone Iam A.Shanmukha Sairam,Iam here to learn git and version control while being hands on and utilising all the features available on git and github. Also it is quite important to understand that Java is a important part of this process and contains mostly test java files or example java files to get through core Java and progress into advanced Java Concepts.
