@@ -29,7 +29,12 @@ public class learningCollectionsAndStream {
         for(int i : reg.keySet()){
             System.out.println("Name : " + reg.get(i) + " "+ "Roll Number = "+ i);
         }
-        System.out.println(45+567);
+        Stream<Integer>a = roll.stream()
+            .filter(n->n%2==0)
+            .map(n->n*2)
+            .sorted();
+        a.forEach(n->System.out.println(n));
+        
 
     }
 }
